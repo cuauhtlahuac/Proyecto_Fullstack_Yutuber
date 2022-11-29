@@ -551,12 +551,12 @@ video {
   display: flex;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .h-8 {
   height: 2rem;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .w-32 {
@@ -571,16 +571,16 @@ video {
   width: 24rem;
 }
 
+.w-8 {
+  width: 2rem;
+}
+
 .w-\[50\%\] {
   width: 50%;
 }
 
 .w-80 {
   width: 20rem;
-}
-
-.w-8 {
-  width: 2rem;
 }
 
 @keyframes spin {
@@ -613,12 +613,12 @@ video {
   border-radius: 0.25rem;
 }
 
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
 .rounded-r-xl {
